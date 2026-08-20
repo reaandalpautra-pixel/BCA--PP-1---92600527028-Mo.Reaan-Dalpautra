@@ -18,19 +18,32 @@ void main()
     printf("\n Enter Salary: ");
     scanf("%f", &sal);
 
+    printf("\n Enter HRA: ");
+    scanf("%f", &hra);
+
+    printf("\n Enter TA: ");
+    scanf("%f", &ta);
+
+    printf("\n Enter DA: ");
+    scanf("%f", &da);
+
+    printf("\n Enter PF: ");
+    scanf("%f", &pf);
+
+
     if (sal >= 5000)
     {
-	hra = (5.0 / 100)* sal;
-	ta = (6.0 / 100) * sal;
-	da = (4.0 / 100) * sal;
-	pf = (5.0 / 100) * sal;
+	hra = (hra / 100)* sal;
+	ta = (ta / 100) * sal;
+	da = (da / 100) * sal;
+	pf = (pf / 100) * sal;
     }
     else
 	    {
-	hra = (4.0 / 100) * sal;
-	ta = (5.0 / 100) * sal;
-	da = (3.0 / 100) * sal;
-	pf = (4.0 / 100) * sal;
+	hra = (hra / 100) * sal;
+	ta = (ta / 100) * sal;
+	da = (da / 100) * sal;
+	pf = (pf / 100) * sal;
     }
 
     gross_sal = sal + hra + ta + da - pf;
