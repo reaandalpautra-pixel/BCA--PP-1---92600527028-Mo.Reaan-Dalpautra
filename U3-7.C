@@ -1,5 +1,5 @@
 /*U3-7. Write a C Progrma display final payment accourding to
- follwoing condition*/
+	following condition*/
 #include <stdio.h>
 #include <conio.h>
 
@@ -33,5 +33,4 @@ void main()
     printf("\nFinal Payment = %.2f", finalAmount);
 
     getch();
-    return 0;
 }
