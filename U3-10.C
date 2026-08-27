@@ -1,4 +1,5 @@
-// 10. Write a program to Input a character, if it is capital convert into small else convert into capital. 
+/* 10. Write a program to Input a character, if it is capital convert
+into small else convert into capital.*/
 
 #include <stdio.h>
 #include <conio.h>
