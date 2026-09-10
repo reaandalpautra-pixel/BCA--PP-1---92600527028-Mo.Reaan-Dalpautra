@@ -1,0 +1,24 @@
+// 8. Write a program to input year and find whether year is leap year or not.(Hint Use % Sign)
+
+#include <stdio.h>
+#include <conio.h>
+
+void  main()
+{
+    int year;
+
+    clrscr();
+
+    printf("Enter year: ");
+    scanf("%d", &year);
+
+    if ((year % 400 == 0) || (year % 4 == 0 && year % 100 != 0))
+    d{
+	printf("Leap Year");
+    }
+    else
+    {
+	printf("Not a Leap Year");
+    }
+    getch();
+}
