@@ -1,29 +1,21 @@
-//WAP that print 1 to 10 using loop
-#include<stdio.h>
-#include<conio.h>
+// 1. Write a program that Print 1 2 3 4 .... 10
 
-void main()
+#include <stdio.h>
+#include <conio.h>
 
-{
-	int i;
-	clrscr();
+void main() {
+    int i,j;
+    clrscr();
+    for (i = 1; i <= 10; i++)
+    {
+        printf("%d ", i);
+    }
+    i=j;
+    while (j<=10)
+    {
+	printf("%t %d",j);
+	j++;
+    }
 
-	for(i=1;i<=10;i++)
-	{
-		printf(" %d",i);
-	}
-	printf("\n");
-	printf("\n");
-	for(i=1;i<=10;i++)
-	{
-		printf(" %d",i*i);
-	}
-	printf("\n");
-	printf("\n");
-	for(i=1;i<=10;i++)
-	{
-		printf(" %d",i*i*i);
-	}
-	getch();
-
+    getch();
 }
